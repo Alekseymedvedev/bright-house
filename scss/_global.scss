@@ -1,0 +1,80 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body {
+	font-style: normal;
+}
+
+body {
+	scroll-behavior: smooth;
+	font-family: 'Montserrat',sans-serif;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+button{
+	padding: 0;
+	background-color: transparent ;
+	border: none;
+	outline: none;
+}
+
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.title {
+	margin: 0 auto 33px;
+	max-width: 720px;
+	color: #FF7400;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 46px;
+	text-align: center;
+}
+
+.btn {
+	font-weight: bold;
+	background-color: #FF7400;
+	color: #FFFFFF;
+	border-radius: 16px;
+}

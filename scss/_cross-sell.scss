@@ -1,0 +1,85 @@
+.cross-sell {
+    &__item {
+        max-width: 560px;
+        width: 100%;
+        margin-bottom: 20px;
+        border: 1px solid #DCDCDC;
+
+        img {
+            display: block;
+            margin-right: 25px;
+            margin-bottom: 20px;
+            max-width: 240px;
+            width: 100%;
+        }
+    }
+
+    &__inner {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    &__box {
+        max-width: 270px;
+        width: 100%;
+    }
+
+    &__subtitle {
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 130%;
+        color: #000000
+    }
+
+    &__text {
+        font-size: 15px;
+        line-height: 150%;
+        color: #000000;
+    }
+
+    &__inner-bottom {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 25px;
+    }
+
+    &__price-box {
+        margin-right: 55px;
+    }
+
+    &__price {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 150%;
+        color: #FF7400;
+    }
+
+    &__sale {
+        margin-right: 13px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 150%;
+        color: #888888;
+        text-decoration:line-through;
+    }
+
+    &__date {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: #888888;
+    }
+
+    &__link {
+        display: block;
+        padding: 20px 40px;
+        border: 1px solid #FF7400;
+        box-sizing: border-box;
+        border-radius: 70px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FF7400;
+    }
+}
